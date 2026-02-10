@@ -16,12 +16,9 @@ Once the terminal opens at the bottom, copy and paste these commands in order to
 
 nvm install 20 && nvm use 20 && nvm alias default 20
 
-curl -fsSL https://bun.sh/install | bash
-export PATH="$HOME/.bun/bin:$PATH"
+curl -fsSL https://bun.sh/install | bash; export PATH="$HOME/.bun/bin:$PATH"
 
-node -v  # Should be v20.x.x
-
-bun -v   # Should be 1.x.x
+bun --version
 
 3. Install & Start
 
